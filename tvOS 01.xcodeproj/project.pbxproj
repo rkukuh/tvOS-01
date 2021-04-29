@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				4ADAA583263A4F1E00A42F9D /* tvOS_01App.swift */,
-				4ADAA585263A4F1E00A42F9D /* MainView.swift */,
-				4ADAA592263A5ACA00A42F9D /* Explorer.swift */,
+				4ADAA594263A5EB200A42F9D /* Views */,
+				4ADAA595263A5EC600A42F9D /* Model */,
 				4ADAA587263A4F1E00A42F9D /* Assets.xcassets */,
 				4ADAA58C263A4F1E00A42F9D /* Info.plist */,
 				4ADAA589263A4F1E00A42F9D /* Preview Content */,
@@ -70,6 +70,22 @@
 				4ADAA58A263A4F1E00A42F9D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ADAA594263A5EB200A42F9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAA585263A4F1E00A42F9D /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4ADAA595263A5EC600A42F9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAA592263A5ACA00A42F9D /* Explorer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
