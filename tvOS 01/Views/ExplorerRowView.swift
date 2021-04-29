@@ -26,6 +26,10 @@ struct ExplorerRowView: View {
 
 struct ExplorerRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ExplorerRowView(explorer: explorers[0])
+        Group {
+            ExplorerRowView(explorer: explorers[0])
+            ExplorerRowView(explorer: explorers[1])
+        }
+        .previewLayout(.fixed(width: 1000, height: 120))
     }
 }
