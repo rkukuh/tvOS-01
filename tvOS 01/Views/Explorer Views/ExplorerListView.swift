@@ -11,7 +11,9 @@ struct ExplorerListView: View {
     var body: some View {
         NavigationView() {
             List(explorers, id: \.self) { explorer in
-                ExplorerRowView(explorer: explorer)
+                NavigationLink(destination: ExplorerDetailView()) {
+                    ExplorerRowView(explorer: explorer)
+                }
             }
             .navigationTitle("Explorers")
         }
