@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4ADAA584263A4F1E00A42F9D /* tvOS_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAA583263A4F1E00A42F9D /* tvOS_01App.swift */; };
-		4ADAA586263A4F1E00A42F9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAA585263A4F1E00A42F9D /* ContentView.swift */; };
+		4ADAA586263A4F1E00A42F9D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAA585263A4F1E00A42F9D /* MainView.swift */; };
 		4ADAA588263A4F1E00A42F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADAA587263A4F1E00A42F9D /* Assets.xcassets */; };
 		4ADAA58B263A4F1E00A42F9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADAA58A263A4F1E00A42F9D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		4ADAA580263A4F1E00A42F9D /* tvOS 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADAA583263A4F1E00A42F9D /* tvOS_01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_01App.swift; sourceTree = "<group>"; };
-		4ADAA585263A4F1E00A42F9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ADAA585263A4F1E00A42F9D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4ADAA587263A4F1E00A42F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADAA58A263A4F1E00A42F9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ADAA58C263A4F1E00A42F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4ADAA583263A4F1E00A42F9D /* tvOS_01App.swift */,
-				4ADAA585263A4F1E00A42F9D /* ContentView.swift */,
+				4ADAA585263A4F1E00A42F9D /* MainView.swift */,
 				4ADAA587263A4F1E00A42F9D /* Assets.xcassets */,
 				4ADAA58C263A4F1E00A42F9D /* Info.plist */,
 				4ADAA589263A4F1E00A42F9D /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADAA586263A4F1E00A42F9D /* ContentView.swift in Sources */,
+				4ADAA586263A4F1E00A42F9D /* MainView.swift in Sources */,
 				4ADAA584263A4F1E00A42F9D /* tvOS_01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
