@@ -12,6 +12,7 @@
 		4ADAA588263A4F1E00A42F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADAA587263A4F1E00A42F9D /* Assets.xcassets */; };
 		4ADAA58B263A4F1E00A42F9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADAA58A263A4F1E00A42F9D /* Preview Assets.xcassets */; };
 		4ADAA593263A5ACA00A42F9D /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAA592263A5ACA00A42F9D /* Explorer.swift */; };
+		4ADAA598263A65C700A42F9D /* explorers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ADAA597263A65C700A42F9D /* explorers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4ADAA58A263A4F1E00A42F9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ADAA58C263A4F1E00A42F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADAA592263A5ACA00A42F9D /* Explorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explorer.swift; sourceTree = "<group>"; };
+		4ADAA597263A65C700A42F9D /* explorers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explorers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4ADAA583263A4F1E00A42F9D /* tvOS_01App.swift */,
 				4ADAA594263A5EB200A42F9D /* Views */,
 				4ADAA595263A5EC600A42F9D /* Model */,
+				4ADAA596263A657000A42F9D /* Data */,
 				4ADAA587263A4F1E00A42F9D /* Assets.xcassets */,
 				4ADAA58C263A4F1E00A42F9D /* Info.plist */,
 				4ADAA589263A4F1E00A42F9D /* Preview Content */,
@@ -86,6 +89,14 @@
 				4ADAA592263A5ACA00A42F9D /* Explorer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4ADAA596263A657000A42F9D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAA597263A65C700A42F9D /* explorers.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADAA598263A65C700A42F9D /* explorers.json in Resources */,
 				4ADAA58B263A4F1E00A42F9D /* Preview Assets.xcassets in Resources */,
 				4ADAA588263A4F1E00A42F9D /* Assets.xcassets in Resources */,
 			);
