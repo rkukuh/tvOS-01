@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct MainView: View {
-    let morningExplorers: [String] = ["chen", "evelin", "felinda", "namira", "rivera"]
-    let afternoonExplorers: [String] = ["indi", "jennifer", "nadya", "priscilla", "risa", "sharon", "shelina"]
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text("Hello Explorer!")
-                .font(.headline)
+                .font(.title)
             
             ScrollView {
                 HStack {
-                    Image(afternoonExplorers[1])
+                    explorers[30].profilePicture
                         .aspectRatio(contentMode: .fill)
                 }
             }
