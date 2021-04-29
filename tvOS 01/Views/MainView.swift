@@ -9,17 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Hello Explorer!")
-                .font(.title)
-            
-            ScrollView {
-                HStack {
-                    explorers[30].profilePicture
-                        .aspectRatio(contentMode: .fill)
-                }
-            }
-        }
+        ExplorerListView()
     }
 }
 
