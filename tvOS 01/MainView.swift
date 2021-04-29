@@ -9,7 +9,8 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("Halo")
+        Text("Hello Explorer!")
+            .font(.title)
     }
 }
 
