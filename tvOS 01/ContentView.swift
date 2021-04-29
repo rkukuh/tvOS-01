@@ -9,13 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button(action: {
+                print("Button 1 pressed")
+            }, label: {
+                Text("Button 1")
+            })
+            
+            Button(action: {
+                print("Button 2 pressed")
+            }, label: {
+                Text("Button 2")
+            })
+            
+            Button(action: {
+                print("Heart button pressed")
+            }, label: {
+                Image(systemName: "heart")
+            })
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                
+        }
     }
 }
