@@ -12,12 +12,16 @@ struct ExplorerDetailView: View {
     
     var body: some View {
         explorer.profilePicture
+            .resizable()
+            .aspectRatio(contentMode: .fit)
             .navigationTitle(explorer.name)
     }
 }
 
 struct ExplorerDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ExplorerDetailView(explorer: explorers[30])
+        NavigationView {
+            ExplorerDetailView(explorer: explorers[30])
+        }
     }
 }
